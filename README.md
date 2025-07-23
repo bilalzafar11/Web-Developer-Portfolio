@@ -49,7 +49,9 @@ A responsive, single-page personal portfolio website built using **HTML**, **CSS
 - Well-structured and mobile-responsive design
 
 ## 📸 Screenshots
-(img1.jpg)
-(img2.jpg)
-(img3.jpg)
-(img4.jpg)
+## 📸 Screenshots
+
+![img1](img1.jpg)
+![img2](img2.jpg)
+![img3](img3.jpg)
+![img4](img4.jpg)
