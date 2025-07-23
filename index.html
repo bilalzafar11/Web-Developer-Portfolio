@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Muhammad Bilal Zafar | Web Developer Intern</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrapper">
+      <div class="site-identity">
+        <a href="/" class="site-title">Muhammad Bilal Zafar</a>
+        <span class="site-role">Web Developer Intern</span>
+      </div>
+      <nav class="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="about-section fade-in">
+    <div class="container about-container">
+      <figure class="about-image">
+        <img src="profile.jpg" alt="Portrait of Muhammad Bilal Zafar">
+      </figure>
+      <div class="about-content">
+        <h2>About the Developer</h2>
+        <p>Hello! I'm <strong>Muhammad Bilal Zafar</strong>, a passionate and detail-oriented <strong>Web Developer Intern</strong> with hands-on experience in building responsive and user-friendly websites using <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, and <abbr title="JavaScript">JS</abbr>.</p>
+        <p>Alongside web development, I'm actively learning <strong>Artificial Intelligence</strong> and <strong>Machine Learning</strong>, aiming to become a future-ready <strong>AI Engineer</strong>. I enjoy solving real-world problems, writing clean and maintainable code, and continuously exploring new technologies to improve my skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section fade-in">
+    <div class="container">
+      <header><h2 class="section-title">Projects</h2></header>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3 class="project-title">Personal Portfolio</h3>
+          <p class="project-description">A clean, responsive, and modern personal portfolio website built using HTML and CSS only. This single-page layout is designed to showcase my skills, projects, and provide easy ways to connect with me.</p>
+          <a href="https://github.com/bilalzafar11/Personal-Portfolio-Website" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+        <article class="project-card">
+          <h3 class="project-title">O-Bailia Restaurant Website</h3>
+          <p class="project-description">A modern and responsive restaurant website built using HTML, CSS, and JavaScript. Includes interactive menus, smooth scrolling, responsive design, and user-friendly navigation optimized for all devices.</p>
+          <a href="https://github.com/bilalzafar11/O-Bailia-Restaurant" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+        <article class="project-card">
+          <h3 class="project-title">Grocery Store Website</h3>
+          <p class="project-description">A clean, responsive grocery store website built with HTML, CSS, and JavaScript. Features include intuitive navigation, product listings, and mobile-friendly layout, providing a simple yet effective e-commerce front-end experience.</p>
+          <a href="https://github.com/bilalzafar11/grocery-store" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section fade-in">
+    <div class="container contact-container">
+      <header><h2 class="section-title">Contact Me</h2></header>
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name <span>*</span></label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email <span>*</span></label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message <span>*</span></label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+        <p class="form-message" id="formMessage" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer fade-in">
+    <div class="container footer-container">
+      <p class="footer-text">&copy; 2025 Muhammad Bilal Zafar. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="mailto:bilalzafar7350@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/bilalzafar11" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/bilalzafar11" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button id="scrollToTopBtn" title="Go to top">↑</button>
+  <script src="script.js" defer></script>
+</body>
+</html>
